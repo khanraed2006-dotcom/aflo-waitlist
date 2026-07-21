@@ -164,8 +164,8 @@
       .then(res => res.json())
       .then(result => {
         if (result.success) {
-          document.getElementById('form').innerHTML =
-            '<p style="text-align:center;">You\'re on the list! 🎉<br>We\'ll call your name when your table is ready.</p>';
+         document.getElementById('form').innerHTML =
+  '<p style="text-align:center;">You\'re on the list! 🎉<br>Please be present within 10 minutes of being contacted, otherwise your table reservation will be cancelled and made available to other customers. Thank you for your understanding.</p>';
         } else {
           alert('Something went wrong. Please try again or ask a staff member.');
           document.getElementById('submitBtn').disabled = false;
